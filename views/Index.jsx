@@ -1,6 +1,7 @@
 const React = require('react')
 
 const Index = props => {
+    
     const myStyle = {
         color: '#ffffff',
         backgroundColor: '#000000',
