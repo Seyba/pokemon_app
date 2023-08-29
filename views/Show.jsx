@@ -11,13 +11,27 @@ const Show = props => {
         backgroundColor: '#000000'
         
     }
+    const btn = {
+        height: '50px',
+        width: '150px',
+        backgroundColor: '#ffffff',
+        borderRadius: '9px',
+        marginTop: '10px',
+        marginBottom: '10px',
+        fontSize: '30px',
+        
+    }
+    
 
     return(
         <main style={myStyle}>
             <h1>Gotta Catch 'Em All</h1>
             <h2>{name}</h2>
-            <img src={url}/>
-            <a href="/pokemon">Back</a>
+            <img src={url}/><br/>
+            <button style={btn}>
+                <a href="/pokemon">Back</a>
+            </button>
+            
         </main>
     )
 }
